@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+/* Global CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f8ff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    padding: 2rem;
+}
+
+.page-body{
+    background-color: #f7f7f7;
+}
+
+/* Header and Footer */
+
+.header {
+    font-family: inherit;
+    font-size: 1.5rem;
+    background-color: #343a40;
+    color: #9d9d9d;
+    height: 5rem;
+    width: 100%;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    padding-left: 5rem
+}
+
+.nav-links{
+    padding-right: 7rem;
+}
+
+.nav-item{
+    padding: 0 2rem;
+}
+
+.footer {
+    text-align: center;
+    font-family: inherit;
+    font-size: 1.2rem;
+    padding: 1.2rem 0;
+    background-color: #343a40;
+    color: #9d9d9d;
+    width: 100%;
+}
+
+/*Landing Page*/
+
+.banner-image {
+    color: #f8f8f8;
+    background: url(../img/home.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-content {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 75vw;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 4rem 0;
+}
+
+.heading--primary{
+    padding: 3rem 0;
+    font-size: 3.5rem;
+}
+
+/* All button common css */
+.btn,
+.btn:hover {
+    height: 3.5rem;
+    width: 15rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(27, 152, 145);
+    /*border: 1px solid rgb(27, 152, 145);*/
+}
+
+.btn-center {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 1rem;
+}
+
+/* About Us */
+.aboutus{
+    min-height: 76vh;
+}
+
+.aboutus-content .row{
+    margin-top: 3rem;
+}
+
+p.cont {
+    text-align: justify;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+/* Sign up */
+
+.form-page {
+    min-height: 73vh;
+    font-family: inherit;
+    font-size: 1.25rem
+}
+
+.form-panel {
+    margin-top: 5rem;
+}
+
+.panel {
+    padding: 2rem;
+    border: 2px solid black;
+    box-shadow: 2px 2px 10px 4px rgba(0,0,0,0.4);
+}
+
+.panel-heading{
+    background-color: rgb(27, 152, 145);
+    color: white;
+    padding: 1rem 0;
+    margin: 0 0 1.5rem 0;
+    font-size: 2.25rem;
+    text-align: center;
+}
+
+/* Home page */
+
+.home-page{
+    min-height: 73vh;
+    font-family: inherit;
+    font-size: 1.25rem;
+}
+
+.home-page .heading{
+    padding-left: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.create-new-plan{
+    color: rgb(27, 152, 145);
+    text-decoration: none;
+    background-color: #f8f8ff;
+    border: none;
+    margin-top: 2rem;
+    padding: 7rem 2rem;
+    text-align: center;
+    border: 0.5px #7fffd4 solid;
+    font-family: inherit;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+.home-page .panel-body .budget-plan{
+    position: relative;
+    padding-bottom: 3rem;
+}
+
+.home-page .panel-body .budget-plan .label{
+    position: absolute;
+    float: left;
+}
+
+.home-page .panel-body .budget-plan .value{
+    float: right;
+}
+
+.plans-row {
+    margin-bottom: 3rem;
+}
+
+.create-new-plan-button{
+    position: fixed;
+    width: 10rem;
+    color: rgb(27, 152, 145);
+    background-color: white;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 30%;
+    z-index: 99;
+    bottom: 10rem;
+    right: 4rem;
+    border: .5px solid rgb(27, 152, 145);
+}
+
+.row-detail {
+    margin-top: 5rem;
+}
