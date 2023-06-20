@@ -9,7 +9,7 @@ Welcome to **Ct₹l Budget &mdash; The Expense Manager Web Application**! This i
 - [Website Content](#website-content)
     - [Sections](#sections)
     - [Features](#features)
-    - [Gallery](#Gallery)
+    - [Gallery](#gallery)
 
 ## Introduction
 
