@@ -6,7 +6,7 @@ Welcome to **Ct₹l Budget &mdash; The Expense Manager Web Application**! This i
 
 - [Introduction](#introduction)
 - [Technologies Used](#technologies-used)
-- [Ct₹l Budget Web Application Content](#ct₹l-budget-web-application-content)
+- [Website Content](#website-content)
     - [Sections](#sections)
     - [Features](#features)
     - [Gallery](#Gallery)
@@ -25,7 +25,7 @@ It allows users to add their initial budget and assign a title to it. Users can 
 - Apache Tomcat
 - NetBeans IDE
 
-## Ct₹l Budget Web Application Content
+## Website Content
 
 ### Sections
 
